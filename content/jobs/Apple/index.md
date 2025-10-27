@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2021-12-29'
+title: 'Software Developer – Life science and Health Care'
+company: 'Persistent Systems Limited'
+location: 'India'
+range: 'Dec 2021 – July 2023'
+url: 'https://www.persistent.com/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- AI-powered Certification Verification System: Automated image & PDF validation pipeline using machine learning and OCR, reducing manual effort by 70% and costs by 35%.
+- Medical Data Extraction for Clinical Trials: Developed custom NLP models (spaCy NER) to extract cancer-related entities, reducing data preparation time by 40% and improving insight accuracy.
+- Healthcare NLP Application: Built and maintained Flask/FastAPI-based NLP microservices, improving information retrieval speed by 12%.
+- Collaborated with global teams to translate clinical data challenges into deployable ML solutions, demonstrating applied problem-solving and teamwork.

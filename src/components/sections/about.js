@@ -125,7 +125,26 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'TensorFlow',
+    'PyTorch',
+    'FastAPI',
+    'Docker',
+    'AWS (EC2, Lambda, S3)',
+    'Azure',
+    'Databricks(PySpark)',
+    'LangChain',
+    'Gemini LLM',
+    'Dialogflow ES',
+    'OpenCV',
+    'Pandas',
+    'Scikit-learn',
+    'XGBoost',
+    'MLflow',
+    'CI/CD',
+    'MLOps',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +154,42 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Ronit Shahu, and I’m passionate about building intelligent systems
+              that merge data, design, and real-world impact. My journey in engineering began with
+              hands-on problem solving from building early automation tools to developing applied AI
+              models that power analytics and decision-making.
+            </p>
+            <p>
+              Over the years, I’ve grown into an AI Engineer and Machine Learning Researcher,
+              specializing in Machine Learning, NLP, and Generative AI. I’ve designed and deployed
+              scalable ML systems on AWS, integrating frameworks like FastAPI, TensorFlow, and
+              PyTorch to automate complex workflows across healthcare, finance, and research. I’m
+              particularly interested in explainable and ethical AI, ensuring every model I build
+              aligns with transparency and human-centered design principles.
+            </p>
+            <p>
+              I recently lead a project at the Canadian Robotics and Artificial Intelligence Ethical
+              Design Lab <a href="https://www.craiedl.ca/">(CRAiEDL)</a>, where I develop
+              containerized AI pipelines, integrate MLflow, and contribute to research on
+              transparent, auditable model reporting. Previously, at{' '}
+              <a href="https://www.persistent.com/">Persistent Systems</a>, I built NLP-based
+              medical data extraction systems and automated image validation pipelines, helping
+              reduce manual workloads by over 70% and improving operational efficiency.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Outside of work, I enjoy exploring intersections between AI and creativity — whether
+              that’s optimizing computer-vision models like{' '}
+              <a href="https://docs.ultralytics.com/models/yolo12/">YOLOv12</a> , developing{' '}
+              <a href="https://dialogflow.cloud.google.com/">Dialogflow</a>+{' '}
+              <a href="https://gemini.google.com/app">Gemini-powered chatbots</a>, or experimenting
+              with edge computing on{' '}
+              <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">
+                Raspberry Pi
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              and <a href="https://developers.google.com/coral">Coral TPU</a>. I believe great
+              engineering combines curiosity, precision, and empathy — and I aim to bring all three
+              into every system I design.{' '}
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +204,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

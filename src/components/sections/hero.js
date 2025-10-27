@@ -60,28 +60,32 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Ronit Shahu.</h2>;
+  const three = <h3 className="big-heading">I build things using ML and AI.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        AI Engineer specializing in Machine Learning, NLP, and Generative AI with a strong
+        background in statistical modeling and optimization. Experienced in developing scalable AI
+        systems on AWS and Azure for enterprise analytics and automation. Skilled in translating
+        business problems into data-driven models using Python, scikit-learn, PyTorch, TensorFlow,
+        and LangChain. Adept at feature engineering, forecasting, and reinforcement-based
+        optimization to support decisioning and risk modeling in complex financial contexts.
+        {/* {' '}
+        <a href="https://www.craiedl.ca/about-us" target="_blank" rel="noreferrer">
+          CRAiEDL
         </a>
-        .
+        . */}
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://github.com/Devilreaper123"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Check out my Github!
     </a>
   );
 

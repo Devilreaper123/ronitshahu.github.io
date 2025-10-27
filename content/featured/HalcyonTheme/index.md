@@ -1,15 +1,16 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
+title: 'Real Time Traffic sign detection using YoloV12'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/Devilreaper123/Traffic-Sign-Detection-using-YOLOv12-Demo'
+external: 'https://demo.signscopes.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - YOLOv12m
+  - AWS
+  - FastAPI
+  - Streamlit
+  - Docker
+  - MLflow
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A real-time traffic sign detection system built with YOLOv12m, FastAPI, and Streamlit. Available on [Docker Hub](https://hub.docker.com/r/ronitshahu/traffic-sign-yolo), [Github]('https://github.com/Devilreaper123/Traffic-Sign-Detection-using-YOLOv12-Demo'), [Live Demo](https://demo.signscopes.com/), with [MLflow Dashboard](https://mlflow.signscopes.com/#/experiments/1).
