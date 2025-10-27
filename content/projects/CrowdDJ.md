@@ -1,14 +1,19 @@
 ---
-date: '2017-03-01'
-title: 'Crowd DJ'
-github: 'https://github.com/crowddj/crowddj-react'
-external: ''
+date: '2022-11-21'
+title: 'Cost-Efficient Medical NLP Application'
+external: 'https://www.persistent.com/'
 tech:
-  - React
-  - Firebase
-  - Spotify API
-company: HackBeanpot 2017
-showInProjects: false
+  - Python
+  - Streamlit
+  - Flask
+  - spaCy
+  - Custom NER
+  - Test-Driven Development
+  - Data Automation
+company: 'Persistent Systems Limited'
+showInProjects: True
 ---
 
-Web app that allows people to crowdsource a party's music queue. Allows people to request songs, upvote songs, rate songs, etc. so the DJ can see how the crowd is feeling and queue songs accordingly. Won Best UI/UX Design at Hackbeanpot 2017.
+Developed a **medical NLP application** leveraging **Streamlit** and **Flask** to automate entity extraction from clinical data.  
+Achieved a **12% improvement in processing efficiency** through optimized data pipelines, custom NER models, and test-driven development practices.  
+Enhanced model reliability and adaptability via iterative, data-driven training cycles.

@@ -1,14 +1,18 @@
 ---
-date: '2018-05-01'
-title: 'blistabloc'
-github: ''
-external: 'https://blistabloc.com/'
+date: '2023-09-29'
+title: 'Multi-File RAG Chatbot with LangChain & FAISS'
 tech:
-  - WordPress
-  - Timber
-  - WooCommerce
-company: 'Scout'
-showInProjects: false
+  - Python
+  - LangChain
+  - OpenAI API
+  - FAISS
+  - Pandas
+  - python-docx
+  - CSV ingestion
+  - tiktoken
+  - python-dotenv
+company: 'Freelance : Avrij Technology'
+showInProjects: True
 ---
 
-Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming.
+A console-based retrieval-augmented chatbot that ingests TXT/DOCX/CSV files, splits text into overlapping chunks, embeds with OpenAI, indexes in FAISS, and runs a conversational retrieval chain with chat history for document Q&A.

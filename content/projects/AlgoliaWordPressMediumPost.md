@@ -1,14 +1,18 @@
 ---
-date: '2020-03-27'
-title: 'Integrating Algolia Search with WordPress Multisite'
-github: ''
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+date: '2023-11-22'
+title: 'Bank Queue Simulation and Optimization System'
+github: 'https://github.com/Devilreaper123/Bank-queueing-system'
 tech:
-  - Algolia
-  - WordPress
-  - PHP
-company: 'Upstatement'
-showInProjects: true
+  - Python
+  - Streamlit
+  - NumPy
+  - SciPy (Erlang)
+  - Matplotlib (3D)
+  - Queueing Theory
+company: 'University of Ottawa'
+showInProjects: True
 ---
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+An interactive **queue simulation and optimization app** built using **Streamlit** to model bank service efficiency.  
+It simulates customer arrivals based on Erlang distributions and evaluates waiting times under varying staffing configurations.  
+The system recommends the **optimal number of primary and experienced servers** to minimize customer delays and visualizes trade-offs through 3D surface plots for real-time performance insights.

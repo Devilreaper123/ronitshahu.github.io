@@ -1,14 +1,18 @@
 ---
-date: '2017-12-01'
-title: 'Apple Music Embeddable Web Player Widget'
-github: ''
-external: 'https://tools.applemusic.com/en-us'
+date: '2024-01-30'
+title: 'System Identification and Control Response using PSO'
+github: 'https://github.com/Devilreaper123/System-s-Integration'
 tech:
-  - MusicKit.js
-  - JS
-  - SCSS
-company: 'Apple'
-showInProjects: true
+  - Python
+  - SciPy (Signal Processing)
+  - NumPy
+  - Matplotlib
+  - PySwarm (PSO)
+  - Control Systems Engineering
+company: 'University of Ottawa'
+showInProjects: True
 ---
 
-Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).
+A **control systems simulation and optimization** project developed for _Assignment 1: Systems Integration_.  
+The application models a transfer function system, visualizes **impulse**, **step**, and **Bode plots**, and applies **Particle Swarm Optimization (PSO)** for parameter estimation.  
+It demonstrates how modern optimization techniques can be used to identify system parameters and minimize error between theoretical and actual dynamic responses.

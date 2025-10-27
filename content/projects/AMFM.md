@@ -1,14 +1,18 @@
 ---
-date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
-github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+date: '2024-11-21'
+title: 'Music Collaboration and Artist Networking Platform'
+github: 'https://github.com/Devilreaper123/PerformifyBeta'
 tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
-showInProjects: true
+  - Python
+  - Django
+  - HTML & CSS
+  - JavaScript
+  - SQLite / PostgreSQL
+  - User Authentication & Messaging System
+company: 'University of Ottawa'
+showInProjects: True
 ---
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+A **Django-based web platform** designed to connect **musicians, artists, and clients** for creative collaboration and professional opportunities.  
+It enables artist sign-ups, video portfolio uploads, dynamic search and filtering by tags and categories, and real-time messaging between users.  
+The system includes **role-based dashboards**, **contract agreement flows**, and **interactive inbox/chat features**, facilitating end-to-end engagement from discovery to collaboration.

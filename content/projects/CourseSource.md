@@ -1,15 +1,18 @@
 ---
-date: '2016-04-01'
-title: 'CourseSource'
-github: 'https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project'
-external: ''
+date: '2023-03-28'
+title: 'Mount Sinai Next.js & Contentful CRM Bug Fixes'
+github: ''
+external: 'https://reports.mountsinai.org/report/ent2024'
 tech:
-  - Angular
-  - Node
-  - Express
-  - MongoDB
-company: 'Northeastern'
-showInProjects: false
+  - Next.js
+  - Contentful CMS
+  - JavaScript
+  - React
+  - REST APIs
+  - Debugging & Deployment
+company: 'Persistent Systems Limited'
+showInProjects: True
 ---
 
-Web application built on the MEAN (MongoDB, Express, Angular, Node) stack with the intention of providing Northeastern students a better experience browsing the courses offered at Northeastern.
+Resolved production-level issues and optimized integration between **Next.js** frontend and **Contentful CMS** for Mount Sinai’s enterprise reporting platform.  
+Enhanced component rendering, API stability, and CMS data synchronization across multiple environments to ensure smooth content updates and consistent page delivery.
