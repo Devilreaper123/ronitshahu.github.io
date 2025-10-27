@@ -2,14 +2,14 @@
 date: '2'
 title: 'Spotify Profile'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/Devilreaper123/Bank-queueing-system'
+# external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Python
+  - Streamlit
+  - NumPy & Matplotlib (3D)
+  - SciPy (Erlang distribution)
+  - Queueing theory
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+An interactive web app for simulating bank queues. It models Erlang-based arrivals, configurable primary vs. experienced tellers, and service-time variance to estimate average wait and queue length, recommends optimal staffing, and visualizes trade-offs with 3D surfaces.
