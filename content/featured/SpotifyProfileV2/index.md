@@ -1,16 +1,20 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
+title: 'Medical NER'
 cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://github.com/Devilreaper123/Medical-NER-SYS'
+cta: 'https://github.com/Devilreaper123'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Python
+  - spaCy (Med7 model)
+  - Streamlit
+  - Flask (API)
+  - Requests
+  - Displacy visualization
+  - Docker / Heroku
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+A web application for **medical named entity recognition (NER)** that leverages the **Med7 spaCy model** to extract and visualize clinical entities from biomedical text.
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+The app provides an interactive **Streamlit interface** for text analysis, an **API exposure panel** to test Flask endpoints, and a modular design for educational demonstration.  
+Users can input medical text, view highlighted entities such as drugs, dosages, and diseases, and check API health directly from the app.

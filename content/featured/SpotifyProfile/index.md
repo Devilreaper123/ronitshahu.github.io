@@ -1,15 +1,27 @@
 ---
 date: '2'
-title: 'Spotify Profile'
+title: 'German Credit Risk MLflow Pipeline'
 cover: './demo.png'
-github: 'https://github.com/Devilreaper123/Bank-queueing-system'
-# external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/Devilreaper123/GermanCredit-MLflow-Pipeline'
+external: 'https://github.com/Devilreaper123/GermanCredit-MLflow-Pipeline'
+
 tech:
   - Python
-  - Streamlit
-  - NumPy & Matplotlib (3D)
-  - SciPy (Erlang distribution)
-  - Queueing theory
+  - Pandas & NumPy
+  - Scikit-learn
+  - SHAP
+  - Seaborn & Matplotlib
+  - MLflow
+  - Logistic Regression / Random Forest / XGBoost
 ---
 
-An interactive web app for simulating bank queues. It models Erlang-based arrivals, configurable primary vs. experienced tellers, and service-time variance to estimate average wait and queue length, recommends optimal staffing, and visualizes trade-offs with 3D surfaces.
+An end-to-end machine learning pipeline for **credit risk modeling** using the German Credit dataset.  
+The project covers complete stages from **EDA, WOE/IV analysis, and feature encoding** to **cost-sensitive model evaluation** and **SHAP-based interpretability**.
+
+Key components include:
+
+- Automated EDA with outlier detection and fairness audits.
+- Cost-aware threshold optimization (5× penalty for false negatives).
+- Model training and comparison across Logistic Regression, Random Forest, and XGBoost.
+- Integration-ready datasets and MLflow-compatible outputs for experiment tracking.
+- Visual explainability using SHAP for global and local interpretation.
