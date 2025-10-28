@@ -13,4 +13,4 @@ tech:
   - MLflow
 ---
 
-A real-time traffic sign detection system built with YOLOv12m, FastAPI, and Streamlit. Available on [Docker Hub](https://hub.docker.com/r/ronitshahu/traffic-sign-yolo), [Github]('https://github.com/Devilreaper123/Traffic-Sign-Detection-using-YOLOv12-Demo'), [Live Demo](https://demo.signscopes.com/), with [MLflow Dashboard](https://mlflow.signscopes.com/#/experiments/1).
+A real-time traffic sign detection system built with YOLOv12m, FastAPI, and Streamlit. Available on [Docker Hub](https://hub.docker.com/r/ronitshahu/traffic-sign-yolo), [Github](https://github.com/Devilreaper123/Traffic-Sign-Detection-using-YOLOv12-Demo), [Live Demo](https://demo.signscopes.com/), with [MLflow Dashboard](https://mlflow.signscopes.com/#/experiments/1).
