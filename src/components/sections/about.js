@@ -169,8 +169,8 @@ const About = () => {
             </p>
             <p>
               I recently lead a project at the Canadian Robotics and Artificial Intelligence Ethical
-              Design Lab <a href="https://www.craiedl.ca/">(CRAiEDL)</a>, where I develop
-              containerized AI pipelines, integrate MLflow, and contribute to research on
+              Design Lab <a href="https://www.craiedl.ca/">(CRAiEDL)</a>, where I developed and
+              containerized AI pipelines, integrated MLflow, and contributed to research on
               transparent, auditable model reporting. Previously, at{' '}
               <a href="https://www.persistent.com/">Persistent Systems</a>, I built NLP-based
               medical data extraction systems and automated image validation pipelines, helping
