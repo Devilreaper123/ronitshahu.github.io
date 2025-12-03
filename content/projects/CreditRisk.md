@@ -13,7 +13,7 @@ tech:
   - HuggingFace Embeddings
   - SEC-Edgar-Downloader
 company: 'Personal Project'
-showInProjects: False
+showInProjects: True
 ---
 
 An **enterprise-style credit risk and disclosure analysis platform** that combines classical ML with LLM-based RAG.  
