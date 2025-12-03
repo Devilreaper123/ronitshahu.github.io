@@ -8,12 +8,12 @@ tech:
   - Docker
   - scikit-learn
   - LangChain / RAG
-  - Gemini 1.5 Flash (LLM)
+  - Gemini 2.5 Pro (LLM)
   - FAISS
   - HuggingFace Embeddings
   - SEC-Edgar-Downloader
 company: 'Personal Project'
-showInProjects: True
+showInProjects: False
 ---
 
 An **enterprise-style credit risk and disclosure analysis platform** that combines classical ML with LLM-based RAG.  
